@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Header.css"
 import SearchIcon from '@mui/icons-material/Search';
+import logo from './logo.svg';
+
 
 function Header() {
     return (
@@ -8,7 +10,7 @@ function Header() {
             <h1>Header Component</h1>
 
             <div className="header__left">
-                <img src="" alt=""/>
+                <img src={logo} alt=""/>
 
                 <div className="header__serach">
                     <SearchIcon />
