@@ -8,11 +8,11 @@
 }
 
 .headerOption__title{
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400;
 }
 
-.headerOption__icon{
+.headerOption__Icon {
     object-fit: contain;
     height: 25px !important;
     width: 25px !important;
